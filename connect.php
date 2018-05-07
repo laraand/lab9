@@ -3,10 +3,10 @@
 function getDBConnection() {
     
     //C9 db info
-    $host = "localhost";
-    $dbName = "csumb_quiz";
-    $username = "alara";
-    $password = "Love@life1";
+    $host = "us-cdbr-iron-east-04.cleardb.net";
+    $dbName = "heroku_981fc0aa0d1b350";
+    $username = "bdc992bb9af150";
+    $password = "29b5a64a";
     
     //when connecting from Heroku
     //mysql://bdc992bb9af150:29b5a64a@us-cdbr-iron-east-04.cleardb.net/heroku_981fc0aa0d1b350?reconnect=true
