@@ -47,7 +47,7 @@ $cfg['Servers'][$i]['host'] = 'us-cdbr-iron-east-04.cleardb.net';
 $cfg['Servers'][$i]['user'] = "bc4ea6e2f50e2f:783c626e";
 $cfg['Servers'][$i]['password'] = "783c626e";
 $cfg['Servers'][$i]['compress'] = false;
-$cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
 
 /* User used to manipulate with storage */
 // $cfg['Servers'][$i]['controlhost'] = '';
