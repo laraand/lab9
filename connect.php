@@ -1,16 +1,15 @@
 <?php
 
-function getDBConnection($dbName) {
+function getDBConnection() {
     
-    //C9 db info 
-    //mysql://bdc992bb9af150:29b5a64a@us-cdbr-iron-east-04.cleardb.net/heroku_981fc0aa0d1b350?reconnect=true
+    //C9 db info
     $host = "us-cdbr-iron-east-04.cleardb.net";
-    $db = $dbName;
+    $dbName = "heroku_981fc0aa0d1b350";
     $username = "bdc992bb9af150";
     $password = "29b5a64a";
     
     //when connecting from Heroku
-   
+    //mysql://bdc992bb9af150:29b5a64a@us-cdbr-iron-east-04.cleardb.net/heroku_981fc0aa0d1b350?reconnect=true
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["host"];

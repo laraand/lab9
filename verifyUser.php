@@ -2,7 +2,7 @@
 session_start();
 
 include 'connect.php';
-$connect = getDBConnection("csumb_quiz");
+$connect = getDBConnection();
 
 //Checking credentials in database
 
